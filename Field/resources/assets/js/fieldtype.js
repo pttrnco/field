@@ -71,10 +71,6 @@ Vue.component('field-fieldtype', {
     },
 
     methods: {
-        info () {
-            console.log(this.data)
-        },
-
         getFieldsets () {
             var url = cp_url('fieldsets-json')
 
